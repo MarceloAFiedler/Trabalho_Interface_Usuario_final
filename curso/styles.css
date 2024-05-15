@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #1f9b00;
+  height: 100vh;
+  color: #fff;
+  padding: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 10px;
+}
+
+.menu li {
+  width: 100%;
+  padding: 10px 0; /* Ajuste da margem superior e inferior para centralizar */
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Alinhar os ícones verticalmente */
+}
+
+.menu a:hover {
+  background-color: #5ec722;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.menu li a i {
+  width: 20px; /* Definir uma largura fixa para os ícones */
+  margin-right: 10px; /* Adicionando espaço entre o ícone e o texto */
+}
